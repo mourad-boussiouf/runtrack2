@@ -6,7 +6,7 @@ $hlp = "Hello LaPlateforme!";
 // Affiche la variable préalablement créee */
 echo $hlp;
 /* Affiche la variable préalablement 
-créee une deuxieme fois */
+créee une deuxieme fois. */
 echo $hlp;
 
 
