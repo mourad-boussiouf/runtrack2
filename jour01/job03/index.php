@@ -39,7 +39,7 @@ td {
         </tr>
         <tr>
             <td>chaine de caracteres(strings)</td>
-            <td>alorslazone</td>
+            <td>mots</td>
             <td><?php echo $mots ?></td>
         </tr>
         <tr>

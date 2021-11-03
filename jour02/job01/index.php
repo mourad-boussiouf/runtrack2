@@ -14,11 +14,24 @@
 
 <?php
 
-$nombre = 0;
 
-while ($nombre <= 1337){
- echo $nombre++;
+for ($nombre = 0; $nombre <= 1337; $nombre++) {
+
+
+if ($nombre==42) {
+
+echo "<b><u>$nombre</b></u>";
+echo "<br/>";
 }
+else {
+
+echo $nombre;
+echo "<br>";
+}
+
+
+}
+
 
 
 
@@ -27,5 +40,8 @@ while ($nombre <= 1337){
 ?>
 
 </html>
+
+
+
 
 
