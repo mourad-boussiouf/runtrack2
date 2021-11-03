@@ -38,8 +38,8 @@ td {
             <td><?php echo $nombreentier ?></td>
         </tr>
         <tr>
-            <td>chaine de caracteres</td>
-            <td>phrase</td>
+            <td>chaine de caracteres(strings)</td>
+            <td>alorslazone</td>
             <td><?php echo $mots ?></td>
         </tr>
         <tr>
