@@ -3,7 +3,7 @@
 $str = "I'm sorry Dave I'm afraid I can't
 do that.";
 
-var_dump($str); //me permet de savoir le nombre de charactères
+var_dump($str);
 $i=0;
 
 for ($i=0; isset($str[$i])==true; $i++ ){      //si la lettre contenu dans chacun des index est une voyelle, l'afficher.
