@@ -56,7 +56,7 @@ for ($x=0; isset($str[$x])==true; $x++) {
     <title>Document</title>
 </head>
 <body>
-<p> Occurences de consomme et voyelles pour la phrase : <br> <?php echo $str ?>
+<p> L'occurence des consonnes et des voyelles pour la phrase : <br> "<?php echo $str ?> "<br> est la suivante : </p>
 <table>
   <thead>
     <tr>
