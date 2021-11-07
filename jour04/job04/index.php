@@ -36,8 +36,14 @@
 </tr>
 <tr>
 <td>Valeur : </td>
-<td><?php echo $_POST['prenom'] ?> </td>
-<td><?php echo $_POST['nom'] ?> </td>
+<td><?php
+if (isset($_POST['prenom'])==true) {
+    
+ echo $_POST['prenom']; } ?> </td>
+
+<td><?php
+if (isset($_POST['nom'])==true) {
+echo $_POST['nom']; }?> </td>
 </table>
 
 

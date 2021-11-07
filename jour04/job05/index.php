@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-<p><i>Non sensible à la casse ! </i></p>
+<p><i>Non sensible à la casse ! </i>
 <form method="POST" action = "index.php">
 
 <p>
