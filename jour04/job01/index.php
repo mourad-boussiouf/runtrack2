@@ -1,18 +1,5 @@
-<?php
-
-$x=0;
-
-foreach ($_GET as $value){
-    $x++;
-}
-
-echo $x;
 
 
-
-
-
-?>
 
 
 
@@ -26,10 +13,14 @@ echo $x;
 </head>
 <body>
 
-<form method="GET" action = "index.php">
+<form method="POST" action = "index.php">
 
 <p>
-    <label for = "prenom"> Entrez le prénom : </label>
+    <label for = "login"> Entrez le nom d'utilisateur : </label>
+    <input type = "text" name = "login" id = "login" />
+    <label for = "password"> Entrez le mot de passe : </label>
+    <input type = "text" name = "password" id = "password" />
+    <label for = "prenom"> Entrez le prenom : </label>
     <input type = "text" name = "prenom" id = "prenom" />
     <label for = "nom"> Entrez le nom : </label>
     <input type = "text" name = "nom" id = "nom" />
